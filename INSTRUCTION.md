@@ -8,7 +8,7 @@ kubectl create namespace mateapp
 
 Apply the DaemonSet manifest:
 
-kubectl apply -f daemonset.yml
+kubectl apply -f .infrastructure/daemonset.yml
 
 
 Verify that all Pods are created:
@@ -32,7 +32,7 @@ This confirms that the DaemonSet executes the curl command every 5 seconds.
 
 Apply the CronJob manifest:
 
-kubectl apply -f cronjob.yml
+kubectl apply -f .infrastructure/cronjob.yml
 
 
 Verify that the CronJob is created:
