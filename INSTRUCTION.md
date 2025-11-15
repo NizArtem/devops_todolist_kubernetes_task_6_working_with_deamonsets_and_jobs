@@ -32,7 +32,7 @@ This confirms that the DaemonSet executes the curl command every 5 seconds.
 
 Apply the CronJob manifest:
 
-kubectl apply -f .infrastructure/cronjob.yml
+kubectl apply -f .infrastructure/cronJob.yml
 
 
 Verify that the CronJob is created:
